@@ -12,7 +12,7 @@ import java.util.SortedSet;
 public class ThreeSum {
 
 	public static void main(String[] args) {
-		System.out.println(String.valueOf(threeSum(new int[] { 0, 0, 0 })));
+		System.out.println(String.valueOf(threeSum(new int[] { 12, 3, 4, 1, 6, 9 })));
 	}
 
 	public static List<List<Integer>> threeSum(int[] nums) {
